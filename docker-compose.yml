@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    image: jollykai/quotes-collector
+    container_name: 'quote_collector'
+    restart: always
+    ports:
+      - "8080:8080"
